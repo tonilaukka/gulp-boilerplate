@@ -62,7 +62,7 @@ To install dependencies, `bower install --save package-name` to get the files an
 ```html
         <!-- build:js scripts/main.js -->
         <!-- bower:js -->
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap.js"></script>
         <!-- endbower.js -->
 
         <script src="scripts/main.js"></script>
@@ -72,7 +72,7 @@ To install dependencies, `bower install --save package-name` to get the files an
 ```
 
 ### Configuration
-To change dist folder names and structure see [config.json](config.json).
+To change dist folder names and server ports see [config.json](config.json).
 ```json
 {
   "distFolder": "dist",
