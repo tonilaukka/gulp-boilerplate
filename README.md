@@ -12,7 +12,7 @@ Some of the features.
 - Sass Compilation
 - Script minification
 
-Please see the [gulpfile.js](app/templates/gulpfile.js) for all the tasks.
+Please see the [gulpfile.js](gulpfile.js) for all the tasks.
 
 ## Dependencies
 - Download and install [NodeJS](http://nodejs.org/)
@@ -72,7 +72,7 @@ To install dependencies, `bower install --save package-name` to get the files an
 ```
 
 ### Configuration
-To change dist folder names and structure see [config.js](gulpconfig.js).
+To change dist folder names and structure see [config.js](config.js).
 ```json
 {
   "distFolder": "dist",
