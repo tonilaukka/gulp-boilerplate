@@ -1,5 +1,9 @@
 # Gulp Boilerplate
+<<<<<<< HEAD
 Sets up a front-end development environment using [Gulp](http://gulpjs.com/) for the build process.
+=======
+Sets up a front-end development enviroment using [Gulp](http://gulpjs.com/) for the build process.
+>>>>>>> 4dbb6a68c693284c616fc1097c06fc31b6567bcf
 
 ## Features
 Some of the features.
@@ -83,3 +87,4 @@ To change dist folder names and structure see [config.js](gulpconfig.js).
   "filename": "site.zip"
 }
 ```
+
