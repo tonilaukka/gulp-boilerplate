@@ -134,9 +134,6 @@ gulp.task('zip', function() {
         .pipe(gulp.dest( config.distFolder ));
 });
 
-// gulp.task('build', ['clean', 'jshint', 'html', 'images', 'fonts', 'extras', 'zip'], function () {
-//     return gulp.src( config.distFolder+'/**/*').pipe(plugins.size({title: 'build', gzip: true}));
-// });
 gulp.task('build', ['clean'], function () {
     gulp.start('jshint', 'html', 'images', 'fonts', 'extras', 'zip', function () {
         return gulp.src( config.distFolder+'/**/*').pipe(plugins.size({title: 'build', gzip: true}));
