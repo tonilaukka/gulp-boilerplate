@@ -72,7 +72,7 @@ To install dependencies, `bower install --save package-name` to get the files an
 ```
 
 ### Configuration
-To change dist folder names and structure see [config.js](config.js).
+To change dist folder names and structure see [config.json](config.json).
 ```json
 {
   "distFolder": "dist",
