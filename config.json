@@ -4,5 +4,6 @@
   "images": "images",
   "livereload": 35729,
   "server": 9002,
-  "filename": "site.zip"
+  "filename": "site.zip",
+  "sass": "libsass"
 }

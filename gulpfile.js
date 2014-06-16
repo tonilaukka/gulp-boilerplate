@@ -9,14 +9,21 @@ var config = require('./config.json');
 // Load gulp plugins from package.json
 var plugins = require('gulp-load-plugins')();
 
+// Switch to Sass Ruby Compiler
+var sass = plugins.sass({ errLogToConsole: true });
+if ( config.sass === 'ruby' ) {
+    sass = plugins.rubySass({
+        style: 'expanded',
+        precision: 10
+    });
+}
+
 // Load Node Packaged Modules
 var rimraf = require('rimraf');
 
 gulp.task('sass', function () {
     return gulp.src('app/styles/sass/**/*.scss')
-        .pipe(plugins.sass({
-            errLogToConsole: true
-        }))
+        .pipe(sass)
         .pipe(gulp.dest('.tmp/styles'));
 });
 
